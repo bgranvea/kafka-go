@@ -46,7 +46,7 @@ type RequestResources struct {
 
 type RequestConfig struct {
 	Name  string `kafka:"min=v0,max=v1"`
-	Value string `kafka:"min=v0,max=v1,nullable"`
+	Value string `kafka:"min=v0,max=v1"`
 }
 
 type Response struct {
